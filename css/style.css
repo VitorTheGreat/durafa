@@ -1,0 +1,52 @@
+.button-down{
+  margin-top: auto;
+}
+
+.etiqueta{
+  /* background-color: gray; */
+  /* width: 240px;
+  height: 176.1px; */
+/*  width: 90.5mm;*/
+/*  height: 60.6mm;*/
+  width: 78.5mm;
+  height: 57.6mm;
+/*  border: 1px solid black;*/
+  margin: 3px 3px 5px 7px;
+  visibility: hidden;
+    padding: 4px;
+}
+
+.etiqueta-correction{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.font_etiqueta_tamanho{
+  font-size: 40px;
+}
+
+.font_etiqueta{
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.numero_barcode{
+  margin: 0 0 0 53px;
+}
+
+@media print {
+
+  .noprint{
+    display: none;
+    /* visibility: hidden; */
+      
+    @page {
+        margin: 0.5cm 0.5cm 0.5cm 15cm;
+    }
+ }
+
+
+ 
+
+}

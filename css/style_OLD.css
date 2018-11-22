@@ -1,0 +1,38 @@
+.button-down{
+  margin-top: auto;
+}
+
+.etiqueta{
+  /* background-color: gray; */
+  /* width: 240px;
+  height: 176.1px; */
+  width: 90.5mm;
+  height: 60.6mm;
+  border: 1px solid black;
+  margin: 3px 3px 3px 3px;
+  visibility: hidden;
+}
+
+.font_etiqueta_tamanho{
+  font-size: 50px;
+}
+
+.font_etiqueta{
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.numero_barcode{
+  margin: 0 0 0 53px;
+}
+
+@media print {
+
+  .noprint{
+    display: none;
+    /* visibility: hidden; */
+  }
+
+
+
+}
